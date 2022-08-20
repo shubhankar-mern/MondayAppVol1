@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: 'Oswald', sans-serif;
+}
+
+
+
+table {
+
+  font-family: arial, sans-serif;
+
+  border-collapse: collapse;
+
+  width: 100%;
+  
+
+}
+td, th {
+
+  border: 1px solid #dddddd;
+
+  text-align: left;
+
+  padding: 8px;
+
+}
+
+
+tr:nth-child(even) {
+
+  background-color: #eee;
+
+}
+
+th {
+
+  background-color: #555;
+
+  color: #fff;
+
+}
+td:hover{
+  color:blueviolet;
+  transform: scale(1.5);
+}
+
+ /* css for button */
+button{
+  height: 40px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-weight: 900;
+  margin: 10px;
+}
+button:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+/*map*/
+.leaflet-container {
+  width: 100%;
+  height: 60vh;
+}
+/*app*/
+.App{
+display: flex;
+border: 2px solid red;
+}
+
+.botton-pallete{
+  
+height: 90vh;
+width: 25%;
+border: 2px solid black;
+display: flex;
+flex-direction: column;
+margin-top: 10px;
+margin-left: 20px;
+}
+
+.display-pallete{
+ 
+  height: 90vh;
+  width: 70%;
+  border: 2px solid black;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/*locanto*/
+.locanto{
+  text-align: center;
+  padding:10px ;
+  border: 2px solid black;
+  background-color:red;
+  color:#dddddd;
+  font-weight:bold;
+  border-radius: 10px;
+  height: 30px;
+  width: 120px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.locanto:hover{
+  transform: scale(1.1);
+  cursor: crosshair;
+}
+.logo{
+  width: 100%;
+  height: 80px;
+  border: 2px solid black;
+}
+.logo>img{
+  width: 80%;
+  height: 80px;
+}
