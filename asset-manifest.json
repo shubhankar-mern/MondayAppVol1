@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MondayAppVol1/static/css/main.b7238b62.css",
+    "main.js": "/MondayAppVol1/static/js/main.11b8d419.js",
+    "index.html": "/MondayAppVol1/index.html",
+    "main.b7238b62.css.map": "/MondayAppVol1/static/css/main.b7238b62.css.map",
+    "main.11b8d419.js.map": "/MondayAppVol1/static/js/main.11b8d419.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7238b62.css",
+    "static/js/main.11b8d419.js"
+  ]
+}
